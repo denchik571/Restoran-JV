@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #997950;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: flex-start;
+}
+
+.logo img {
+    height: 60px; /* Установите высоту логотипа */
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+main {
+    padding: 100px 20px; /* Отступ сверху для фиксации меню */
+    text-align: center;
+    background-color: rgb(211, 156, 239);
+}
+
+.registration {
+    background-color: #997950;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px; /* Максимальная ширина блока регистрации */
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration label {
+    margin: 10px 0 5px;
+}
+
+.registration input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #579c57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.contacts p {
+    margin: 5px 0;
+   
+}
